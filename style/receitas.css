@@ -20,22 +20,11 @@
     padding: 0px;
 }
 
-h1 {
-    color: var(--cor-fundo);
+h1,h2,h3 {
     font-family: var(--fonte-destaque);
-}
-
-h2 {
-    color: var(--cor-vermelho);
-    font-family: var(--fonte-destaque);
-}
-
-h3 {
-    color: var(--cor-texto2);
 }
 
 p {
-    color: var(--cor-texto);
     font-family: var(--fonte-padrao);
 }
 
@@ -60,56 +49,43 @@ header .container {
 }
 
 header h1 {
+    color: var(--cor-fundo);
     font-size: 2.5rem;
 }
 
-nav ul {
+header ul {
     display: flex;
     gap: 30px;
     list-style: none;
 }
 
-nav a {
-    text-decoration: none;
+header a {
     color: var(--cor-fundo);
+    text-decoration: none;
     font-weight: 600;
     transition: color 0.3s;
 }
 
-nav a:hover {
+header a:hover {
     color: var(--cor-dourado);
-}
-
-.intro {
-    background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') no-repeat center center/cover;
-    text-align: center;
-    padding: 100px 20px;
-}
-
-.intro h2 {
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-}
-
-.intro p {
-    color: var(--cor-fundo);
 }
 
 section {
     padding: 60px 20px;
 }
 
-section h2{
+section h2 {
+    color: var(--cor-vermelho);
     margin-bottom: 20px;
     font-size: 2rem;
 }
 
-.divisor {
-    width: 70%;
-    height: 1px;
-    background-color: var(--cor-verde);
-    margin: 40px auto;
-    opacity: 0.6;
+section h3{ 
+    color: var(--cor-texto2);
+}
+
+section p {
+    color: var(--cor-texto);
 }
 
 .cards {
@@ -120,53 +96,60 @@ section h2{
 }
 
 .card {
-    flex: 1;
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% -20px);
     min-width: 250px;
-    background: white;
-    padding: 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
     border-left: 5px solid var(--cor-verde);
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
     transition: 0.3s;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
 }
 
 .card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-.sobre p {
-    text-indent: 30px;
-    line-height: 1.6;
-    text-align: justify;
+.card .image {
+    flex: 1;
+    background: url(https://images.unsplash.com/photo-1719250726371-b4076d48ce6c?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
 }
 
-footer {
-    background-color: var(--cor-vermelho);
-    padding: 20px 0px;
+.card .text {
+    padding: 15px;
     text-align: center;
 }
 
-footer ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-    padding: 0 20px;
-    margin-bottom: 20px;
-    list-style: none;
+.card h3 {
+    color: var(--cor-vermelho);
+    margin-bottom: 10px;
 }
 
-footer a {
-    text-decoration: none;
-    color: var(--cor-fundo);
-    font-weight: 600;
-    transition: color 0.3s;
+.card p {
+    color: var(--cor-texto);
+    font-size: 0.9rem;
 }
 
-footer a:hover {
-    color: var(--cor-dourado);
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transform: translateY(-8px);
 }
 
-footer p {
-    color: var(--cor-fundo);
-    text-align: center;
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 20px); /* Duas por linha */
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 100%; /* Uma por linha */
+        max-width: 100%;
+    }
 }

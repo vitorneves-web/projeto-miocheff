@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MioCheff | Sabores da Itália</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header>
@@ -12,17 +12,17 @@
             <h1>MioCheff</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Receitas</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="receitas.html">Receitas</a></li>
                     <li><a href="#">Dicas</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="intro">
+        <section class="intro" id="inicio">
             <h2>Descubra os Sabores da Itália</h2>
             <p>Receitas autênticas, ingredientes frescos e a verdadeira tradição italiana na sua mesa.</p>
         </section>
@@ -30,14 +30,17 @@
              <div class="container">
                 <h2>Receitas em Destaque</h2>
                 <div class="cards">
+                    <div class="image"></div>
                     <div class="card">
                         <h3>Spaghetti alla Carbonara</h3>
                         <p>Receita clássica com ovos, pecorino, pancetta e pimenta-do-reino.</p>
                     </div>
+                    <div class="image"></div>
                     <div class="card">
                         <h3>Risotto alla Milanese</h3>
                         <p>Arroz cremoso com açafrão, típico do norte da Itália.</p>
                     </div>
+                    <div class="image"></div>
                     <div class="card">
                         <h3>Tiramisu</h3>
                         <p>A sobremesa italiana mais famosa, com café e mascarpone.</p>
@@ -50,14 +53,17 @@
             <div class="container">
                 <h2>Receitas Simples e Rápidas</h2>
                 <div class="cards">
+                    <div class="image"></div>
                     <div class="card">
                         <h3>Espaguete ao Alho e Óleo</h3>
                         <p>Clássico italiano: alho dourado no azeite, pimenta e massa al dente. Pronto em 15 minutos.</p>
                     </div>
+                    <div class="image"></div>
                     <div class="card">
                         <h3>Penne ao Molho de Tomate Rústico</h3>
                         <p>Tomates amassados, alho, manjericão fresco e um bom azeite. Básico e delicioso.</p>
                     </div>
+                    <div class="image"></div>
                     <div class="card">
                         <h3>Bruschettas Tradicionais</h3>
                         <p>Pão italiano tostado com tomate, alho e manjericão. Ótimo pra qualquer hora.</p>
@@ -70,14 +76,17 @@
             <div class="container">
                 <h2>Receitas para Reunir a Família</h2>
                 <div class="cards">
+                    <div class="image"></div>
                     <div class="card">
                         <h3>Lasanha à Bolonhesa</h3>
                         <p>Camadas de massa, molho de carne e muito queijo gratinado. Perfeita para domingos.</p>
                     </div>
+                    <div class="image"></div>
                     <div class="card">
                         <h3>Polpetone Recheado com Queijo</h3>
                         <p>Almôndegas gigantes recheadas, ao molho de tomate. Vai bem com arroz ou massa.</p>
                     </div>
+                    <div class="image"></div>
                     <div class="card">
                         <h3>Risoto de Funghi Secchi</h3>
                         <p>Rico, aromático e ideal pra uma noite especial em família.</p>
@@ -87,14 +96,14 @@
         </section>
         <div class="divisor"></div>
         <section class="sobre">
-            <div class="container">
+            <div class="container" id="sobre">
                 <h2>Sobre Nós</h2>
                 <p>O MioCheff nasceu da paixão pela gastronomia italiana e do desejo de torná-la acessível a todos, do iniciante na cozinha ao apaixonado por massas. Nosso objetivo é compartilhar receitas autênticas — daquelas que passam de geração em geração — com instruções simples, ingredientes reais e um toque de história em cada prato. Acreditamos que cozinhar é uma forma de carinho, de reunir pessoas e criar memórias. Aqui, tradição e praticidade caminham juntas: você vai encontrar desde pratos elaborados para ocasiões especiais até receitas rápidas para o dia a dia, sempre com alma italiana. Sejam bem-vindos à nossa cozinha — sintam-se em casa.</p>
             </div>
         </section>
     </main>
     <footer>
-        <ul>
+        <ul id="contato">
             <li><a href="#">(99) 99999-9999</a></li>
             <li><a href="#">(99) 99999-9999</a></li>
             <li><a href="#">contato@miocheff.com.br</a></li>
