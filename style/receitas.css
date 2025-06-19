@@ -115,10 +115,93 @@ section p {
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-.card .image {
-    flex: 1;
+.image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#spaghetti {
     background: url(https://images.unsplash.com/photo-1719250726371-b4076d48ce6c?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
 }
+
+#risotto {
+    background: url(https://media.gettyimages.com/id/1403119075/pt/foto/osso-buco-alla-milanese.jpg?s=612x612&w=0&k=20&c=rLZgRn8XUJjCyRILYErb223E2m_wRUNTomlVoQ69GtY=) no-repeat center center/cover;
+}
+
+#lasagna {
+    background: url(https://media.gettyimages.com/id/1798149313/pt/foto/lasagna-soup-meat-tomato-sauce-pasta-parmesan-cheese.jpg?s=612x612&w=0&k=20&c=Ey2bs7Kl6_AYnVk35keiENnb1VvuI37XKiHbo438SAk=) no-repeat center center/cover;
+}
+
+#penne {
+    background: url(https://media.gettyimages.com/id/1446071648/pt/foto/penne-arrabiata.jpg?s=612x612&w=0&k=20&c=d4gpJSB8eRccpo72LD7wdV_zkwY0y_1mxnsbLAvOxO8=) no-repeat center center/cover;
+}
+
+#taramisu {
+    background: url(https://plus.unsplash.com/premium_photo-1691010744402-b8587568e4eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHRpcmFtaXN1fGVufDB8fDB8fHww) no-repeat center center/cover;
+}
+
+#osso {
+    background: url(https://cdn.pixabay.com/photo/2017/07/24/17/54/osso-buco-2535556_640.jpg) no-repeat center center/cover;
+}
+
+#gnocchi {
+    background: url(https://images.unsplash.com/photo-1628462626251-dc8abf27ece0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z25vY2NoaSUyMHBlc3RvfGVufDB8fDB8fHww) no-repeat center center/cover; 
+}
+
+#focaccia { 
+    background: url(https://images.unsplash.com/photo-1619450239118-3a0385b360c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZvY2FjY2lhfGVufDB8fDB8fHww) no-repeat center center/cover;
+}
+
+#bruschetta {
+    background: url(https://cdn.pixabay.com/photo/2020/10/30/18/36/bruschetta-5699490_640.jpg) no-repeat center center/cover;
+}
+
+#parmigiana {
+    background: url(https://plus.unsplash.com/premium_photo-1664647841226-57c3ede70758?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+}
+
+#arancini {
+    background: url(https://cdn.pixabay.com/photo/2021/04/06/12/37/arancini-6156227_1280.jpg) no-repeat center center/cover;
+}
+
+#polenta {
+    background: url(https://plus.unsplash.com/premium_photo-1666798639797-0aa4790a7c5b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+}
+
+#calzone {
+    background: url(https://cdn.pixabay.com/photo/2020/08/05/08/55/food-5464856_640.jpg) no-repeat center center/cover;
+}
+
+#insalata {
+    background: url(https://images.unsplash.com/photo-1595587870672-c79b47875c6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fHww) no-repeat center center/cover;
+}  
+
+#cannoli {
+    background: url(https://cdn.pixabay.com/photo/2018/11/11/20/57/food-3809689_640.jpg) no-repeat center center/cover;
+}
+
+#cacio {
+    background: ;
+}
+
+#panna {
+    background: url(https://plus.unsplash.com/premium_photo-1713895023426-e887351e3756?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBhbm5hJTIwY290dGF8ZW58MHx8MHx8fDA%3D) no-repeat center center/cover;
+}
+
+#pizza {
+    background: url(https://cdn.pixabay.com/photo/2017/08/06/06/42/pizza-2589569_640.jpg) no-repeat center center/cover;
+}
+
+#tagliatelle {
+
+}
+
+#zuppa {
+
+}
+
 
 .card .text {
     padding: 15px;
