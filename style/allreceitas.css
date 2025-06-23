@@ -65,7 +65,7 @@ header h1 {
 
 nav ul {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     list-style: none;
 }
 
@@ -110,42 +110,6 @@ section h2{
     background-color: var(--cor-verde);
     margin: 40px auto;
     opacity: 0.6;
-}
-
-#spaghetti {
-    background: url(https://images.unsplash.com/photo-1719250726371-b4076d48ce6c?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
-}
-
-#risotto {
-    background: url(https://media.gettyimages.com/id/1403119075/pt/foto/osso-buco-alla-milanese.jpg?s=612x612&w=0&k=20&c=rLZgRn8XUJjCyRILYErb223E2m_wRUNTomlVoQ69GtY=) no-repeat center center/cover;
-}
-
-#lasagna {
-    background: url(https://media.gettyimages.com/id/1798149313/pt/foto/lasagna-soup-meat-tomato-sauce-pasta-parmesan-cheese.jpg?s=612x612&w=0&k=20&c=Ey2bs7Kl6_AYnVk35keiENnb1VvuI37XKiHbo438SAk=) no-repeat center center/cover;
-}
-
-#tiramisu {
-    background: url(https://plus.unsplash.com/premium_photo-1691010744402-b8587568e4eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHRpcmFtaXN1fGVufDB8fDB8fHww) no-repeat center center/cover;
-}
-
-#espaguete {
-    background: url(https://plus.unsplash.com/premium_photo-1674511582428-58ce834ce172?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3BhZ2hldHRpfGVufDB8fDB8fHww) no-repeat center center/cover; 
-}
-
-#pennerustico {
-    background: url(https://receitaexpressa.com/wp-content/uploads/2025/03/Penne-ao-Molho-de-Tomate-Rustico-com-Toque-de-Manjericao.png) no-repeat center center/cover;
-}
-
-#bruschettatrad {
-    background: url(https://img.freepik.com/fotos-premium/bruschetta-com-tomate-queijo-mussarela_79782-1787.jpg?ga=GA1.1.1103208211.1750523511&semt=ais_hybrid&w=740) no-repeat center center/cover;
-}
-
-#polpetonequeijo {
-    background: url(https://t4.ftcdn.net/jpg/05/50/86/63/240_F_550866338_xf0zciOvWhzGwtsqycy2wZm3CuH4xQts.jpg) no-repeat center center/cover;
-}
-
-#risotofunghi {
-    background: url(https://foodandjourneys.net/wp-content/uploads/2021/09/Mushroom-Risotto-ai-Funghi-PIC1.jpg) no-repeat center center/cover;
 }
 
 .desc {

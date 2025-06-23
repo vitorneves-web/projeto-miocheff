@@ -65,7 +65,7 @@ header h1 {
 
 nav ul {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     list-style: none;
 }
 
