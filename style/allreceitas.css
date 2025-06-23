@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 section {
-    padding: 60px 20px;
+    padding: 70px 80px;
 }
 
 section h2{
@@ -110,62 +110,6 @@ section h2{
     background-color: var(--cor-verde);
     margin: 40px auto;
     opacity: 0.6;
-}
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.card {
-    flex: 1 1 calc(33.33% - 20px);
-    max-width: calc(33.33% -20px);
-    min-width: 250px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    border-left: 2.5px solid var(--cor-verde);
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    transition: 0.3s;
-    background-color: white;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-}
-
-.card a {
-    text-decoration: none;
-    color: inherit; /* Mantém a cor do texto definida para o card */
-}
-
-.card .text {
-    height: 100px; /* Altura fixa */
-    padding: 10px; /* Ajuste o espaçamento */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Alinha título e descrição */
-}
-
-.card h3 {
-    font-size: 1.2rem; /* Ajuste o tamanho do texto para caber */
-    margin-bottom: 5px; /* Espaçamento menor */
-}
-
-.card p {
-    font-size: 0.9rem;
-}
-
-.image {
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 #spaghetti {
@@ -204,24 +148,270 @@ section h2{
     background: url(https://foodandjourneys.net/wp-content/uploads/2021/09/Mushroom-Risotto-ai-Funghi-PIC1.jpg) no-repeat center center/cover;
 }
 
+.desc {
+    max-width: 1100px; /* Define um limite de largura */
+    margin: auto; /* Centraliza o box na página */
+    height: auto;
+    padding: 20px;
+    border-left: 5px solid var(--cor-verde);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.desc ul {
+    padding: 0; /* Remove padding padrão da lista */
+    list-style-position: inside; /* Marcadores dentro do box */
+    margin: 0;
+}
+
+.desc li {
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 10px 0; /* Adiciona espaçamento entre itens */
+}
+
+.desc p {
+    text-indent: 30px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.info {
+    max-width: 1100px; /* Define um limite de largura */
+    margin: auto; /* Centraliza o box na página */
+    height: auto;
+    padding: 20px;
+    border-left: 5px solid var(--cor-verde);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.info ul {
+    padding: 0; /* Remove padding padrão da lista */
+    list-style-position: inside; /* Marcadores dentro do box */
+    margin: 0;
+}
+
+.info li {
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 10px 0; /* Adiciona espaçamento entre itens */
+}
+
+.info p {
+    text-indent: 30px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.ingredientes {
+    max-width: 1100px; /* Define um limite de largura */
+    margin: auto; /* Centraliza o box na página */
+    height: auto;
+    padding: 20px;
+    border-left: 5px solid var(--cor-verde);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.ingredientes p {
+    text-indent: 30px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.ingredientes ul {
+    text-indent: 30px;
+    line-height: 1.6;
+    text-align: justify;
+    list-style-position: inside;
+}
+
+.ingredientes li {
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 10px 0; /* Adiciona espaçamento entre itens */
+}
+
+.utensilios {
+    max-width: 1100px; /* Define um limite de largura */
+    margin: auto; /* Centraliza o box na página */
+    height: auto;
+    padding: 20px;
+    border-left: 5px solid var(--cor-verde);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.utensilios ul {
+    padding: 0; /* Remove padding padrão da lista */
+    list-style-position: inside; /* Marcadores dentro do box */
+    margin: 0;
+}
+
+.utensilios li {
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 10px 0; /* Adiciona espaçamento entre itens */
+}
+
+.utensilios p {
+    text-indent: 30px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.passo-a-passo {
+    max-width: 1100px; /* Define um limite de largura */
+    margin: auto; /* Centraliza o box na página */
+    height: auto;
+    padding: 20px;
+    border-left: 5px solid var(--cor-verde);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.passo-a-passo ul {
+    text-indent: 30px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.passo-a-passo ol {
+    padding: 0; /* Remove padding padrão da lista */
+    list-style-position: inside; /* Marcadores dentro do box */
+    margin: 0;
+}
+
+.passo-a-passo li {
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 10px 0; /* Adiciona espaçamento entre itens */
+}
+
+.sugestoes {
+    max-width: 1100px; /* Define um limite de largura */
+    margin: auto; /* Centraliza o box na página */
+    height: auto;
+    padding: 20px;
+    border-left: 5px solid var(--cor-verde);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.sugestoes ul {
+    padding: 0; /* Remove padding padrão da lista */
+    list-style-position: inside; /* Marcadores dentro do box */
+    margin: 0;
+}
+
+.sugestoes li {
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 10px 0; /* Adiciona espaçamento entre itens */
+}
+
+.sugestoes p {
+    text-indent: 30px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.historia {
+    max-width: 1100px; /* Define um limite de largura */
+    margin: auto; /* Centraliza o box na página */
+    height: auto;
+    padding: 20px;
+    border-left: 5px solid var(--cor-verde);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.historia ul {
+    padding: 0; /* Remove padding padrão da lista */
+    list-style-position: inside; /* Marcadores dentro do box */
+    margin: 0;
+}
+
+.historia li {
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 10px 0; /* Adiciona espaçamento entre itens */
+}
+
+.historia p {
+    text-indent: 30px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.perguntas {
+    max-width: 1100px; /* Define um limite de largura */
+    margin: auto; /* Centraliza o box na página */
+    height: auto;
+    padding: 20px;
+    border-left: 5px solid var(--cor-verde);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.perguntas ul {
+    padding: 0; /* Remove padding padrão da lista */
+    list-style-position: inside; /* Marcadores dentro do box */
+    margin: 0;
+}
+
+.perguntas li {
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 10px 0; /* Adiciona espaçamento entre itens */
+}
+
+.perguntas p {
+    text-indent: 30px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% -20px);
+    min-width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid var(--cor-verde);
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    background-color: white;
+    border-radius: 8px;
+}
+
 .card .text {
-    padding: 15px;
+    height: 100px; /* Altura fixa */
+    padding: 10px; /* Ajuste o espaçamento */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Alinha título e descrição */
     text-align: center;
 }
 
 .card h3 {
     color: var(--cor-vermelho);
-    margin-bottom: 10px;
+    font-size: 1.2rem; /* Ajuste o tamanho do texto para caber */
+    margin-bottom: 9px; /* Espaçamento menor */
 }
 
 .card p {
+    margin-top: 9px;
     color: var(--cor-texto);
     font-size: 0.9rem;
-}
-
-.card:hover {
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    transform: translateY(-8px);
 }
 
 @media (max-width: 768px) {
@@ -238,10 +428,49 @@ section h2{
     }
 }
 
-.sobre p {
-    text-indent: 30px;
-    line-height: 1.6;
-    text-align: justify;
+.informacoes {
+    max-width: 350px; /* Define um limite de largura */
+    margin: auto; /* Centraliza o box na página */
+    height: auto;
+    padding: 20px;
+    border-left: 5px solid var(--cor-verde);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    border-radius: 8px;
+}
+
+.informacoes ul {
+    padding: 0; /* Remove padding padrão da lista */
+    list-style-position: inside; /* Marcadores dentro do box */
+    margin: 0;
+}
+
+.informacoes li {
+    text-align: left; /* Alinha o texto à esquerda */
+    padding: 7px 0; /* Adiciona espaçamento entre itens */
+}
+
+
+.call-to-action ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.call-to-action a {
+    background-color: var(--cor-vermelho);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--cor-fundo);
+    transition: color 0.3s;
+}
+
+.call-to-action a:hover {
+    color: var(--cor-dourado);
 }
 
 footer {
