@@ -113,29 +113,35 @@ section h2{
 }
 
 .desc {
-    max-width: 1100px; /* Limita a largura em telas maiores */
-    width: 90%; /* Adapta-se melhor a diferentes tamanhos de tela */
+    max-width: 1100px; /* Largura máxima para melhorar a leitura */
+    min-width: 400px; /* Impede que fique muito estreito */
+    width: 90%; /* Adapta-se ao espaço disponível */
+    margin: 20px auto; /* Centraliza horizontalmente */
     padding: 20px;
-    margin: auto; /* Centraliza horizontalmente */
     border-left: 5px solid var(--cor-verde);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     background-color: white;
     border-radius: 8px;
+    text-align: justify; /* Ajusta o alinhamento do texto */
+    line-height: 1.6; /* Facilita a leitura */
 }
 
 @media (max-width: 768px) {
     .desc {
-        max-width: 95%; /* Permite que ocupe 100% da largura disponível */
-        padding: 15px; /* Reduz o padding para dispositivos menores */
+        max-width: 95%; /* Adapta a largura para telas médias */
+        min-width: unset; /* Remove a largura mínima */
+        padding: 15px;
     }
 }
 
 @media (max-width: 480px) {
     .desc {
-        max-width: 100%; /* Permite que ocupe 100% da largura disponível */
-        padding: 10px; /* Ajusta ainda mais o padding para telas muito pequenas */
+        max-width: 90%; /* Adapta melhor em telas menores */
+        padding: 10px;
+        line-height: 1.5; /* Ajusta o espaçamento entre linhas */
     }
 }
+
 
 .desc ul {
     padding: 0; /* Remove padding padrão da lista */
