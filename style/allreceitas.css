@@ -125,13 +125,14 @@ section h2{
 
 @media (max-width: 768px) {
     .desc {
-        max-width: 100%; /* Permite que ocupe 100% da largura disponível */
+        max-width: 95%%; /* Permite que ocupe 100% da largura disponível */
         padding: 15px; /* Reduz o padding para dispositivos menores */
     }
 }
 
 @media (max-width: 480px) {
     .desc {
+        max-width: 100%; /* Permite que ocupe 100% da largura disponível */
         padding: 10px; /* Ajusta ainda mais o padding para telas muito pequenas */
     }
 }
@@ -154,9 +155,10 @@ section h2{
 }
 
 .info {
-    max-width: 1100px; /* Define um limite de largura */
-    height: auto;
+    max-width: 1100px; /* Limita a largura em telas maiores */
+    width: 90%; /* Adapta-se melhor a diferentes tamanhos de tela */
     padding: 20px;
+    margin: auto; /* Centraliza horizontalmente */
     border-left: 5px solid var(--cor-verde);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     background-color: white;
@@ -181,9 +183,10 @@ section h2{
 }
 
 .ingredientes {
-    max-width: 1100px; /* Define um limite de largura */
-    height: auto;
+    max-width: 1100px; /* Limita a largura em telas maiores */
+    width: 90%; /* Adapta-se melhor a diferentes tamanhos de tela */
     padding: 20px;
+    margin: auto; /* Centraliza horizontalmente */
     border-left: 5px solid var(--cor-verde);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     background-color: white;
@@ -209,9 +212,10 @@ section h2{
 }
 
 .utensilios {
-    max-width: 1100px; /* Define um limite de largura */
-    height: auto;
+    max-width: 1100px; /* Limita a largura em telas maiores */
+    width: 90%; /* Adapta-se melhor a diferentes tamanhos de tela */
     padding: 20px;
+    margin: auto; /* Centraliza horizontalmente */
     border-left: 5px solid var(--cor-verde);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     background-color: white;
@@ -236,9 +240,10 @@ section h2{
 }
 
 .passo-a-passo {
-    max-width: 1100px; /* Define um limite de largura */
-    height: auto;
+    max-width: 1100px; /* Limita a largura em telas maiores */
+    width: 90%; /* Adapta-se melhor a diferentes tamanhos de tela */
     padding: 20px;
+    margin: auto; /* Centraliza horizontalmente */
     border-left: 5px solid var(--cor-verde);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     background-color: white;
@@ -263,9 +268,10 @@ section h2{
 }
 
 .sugestoes {
-    max-width: 1100px; /* Define um limite de largura */
-    height: auto;
+    max-width: 1100px; /* Limita a largura em telas maiores */
+    width: 90%; /* Adapta-se melhor a diferentes tamanhos de tela */
     padding: 20px;
+    margin: auto; /* Centraliza horizontalmente */
     border-left: 5px solid var(--cor-verde);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     background-color: white;
@@ -290,9 +296,10 @@ section h2{
 }
 
 .historia {
-    max-width: 1100px; /* Define um limite de largura */
-    height: auto;
+    max-width: 1100px; /* Limita a largura em telas maiores */
+    width: 90%; /* Adapta-se melhor a diferentes tamanhos de tela */
     padding: 20px;
+    margin: auto; /* Centraliza horizontalmente */
     border-left: 5px solid var(--cor-verde);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     background-color: white;
@@ -317,9 +324,10 @@ section h2{
 }
 
 .perguntas {
-    max-width: 1100px; /* Define um limite de largura */
-    height: auto;
+    max-width: 1100px; /* Limita a largura em telas maiores */
+    width: 90%; /* Adapta-se melhor a diferentes tamanhos de tela */
     padding: 20px;
+    margin: auto; /* Centraliza horizontalmente */
     border-left: 5px solid var(--cor-verde);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     background-color: white;
