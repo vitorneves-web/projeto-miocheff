@@ -125,7 +125,7 @@ section h2{
 
 @media (max-width: 768px) {
     .desc {
-        max-width: 95%%; /* Permite que ocupe 100% da largura disponível */
+        max-width: 95%; /* Permite que ocupe 100% da largura disponível */
         padding: 15px; /* Reduz o padding para dispositivos menores */
     }
 }
