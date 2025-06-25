@@ -113,14 +113,27 @@ section h2{
 }
 
 .desc {
-    max-width: 1100px; /* Define um limite de largura */
-    min-width: 280px;
-    height: auto;
+    max-width: 1100px; /* Limita a largura em telas maiores */
+    width: 90%; /* Adapta-se melhor a diferentes tamanhos de tela */
     padding: 20px;
+    margin: auto; /* Centraliza horizontalmente */
     border-left: 5px solid var(--cor-verde);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     background-color: white;
     border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .desc {
+        max-width: 100%; /* Permite que ocupe 100% da largura disponível */
+        padding: 15px; /* Reduz o padding para dispositivos menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .desc {
+        padding: 10px; /* Ajusta ainda mais o padding para telas muito pequenas */
+    }
 }
 
 .desc ul {
